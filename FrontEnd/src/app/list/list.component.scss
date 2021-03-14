@@ -1,0 +1,46 @@
+.heading
+{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    color: blue;
+}
+.color1
+{
+    font-weight: lighter;
+    color: white;
+    background-color: brown; 
+    
+}
+.color2
+{
+    font-weight:bold ;
+    color: yellow;
+    background-color: aliceblue; 
+    
+}
+.color3
+{
+    font-weight: 100;
+    color: cadetblue;
+    background-color: dimgrey; 
+    
+}
+.color4
+{
+    font-weight: 300;
+    color: gray;
+    background-color: violet; 
+    
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  //.table tr:nth-child(even) {background-color: #f2f2f2;}

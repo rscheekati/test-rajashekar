@@ -1,0 +1,25 @@
+ 
+<div>
+  <h2 class="heading">Tour of Heroes</h2>
+</div>
+<table class="table">
+  <tr>
+    <th *ngFor="let name of columns">
+        {{name}}
+    </th> 
+  </tr>
+  <tr *ngFor="let contact of contacts; let i=index"  class="{{'color'+(i+1)}}">
+    <td>
+       {{contact.name}}
+    </td>
+    <td>
+      {{contact.power}}
+   </td>
+    <td *ngFor="let stat of contact.stats" >
+      {{stat.value}} 
+    </td>
+    
+    <td><button (click)="evolve(contact, i)">Evolve</button></td>
+    
+  </tr>
+</table>
